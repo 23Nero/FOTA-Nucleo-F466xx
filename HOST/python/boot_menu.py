@@ -1,5 +1,5 @@
 
-# Develop by Le Nguyen Khanh Lam
+# Created by Le Nguyen Khanh Lam
 
 import serial
 import struct
@@ -689,28 +689,32 @@ if(ret < 0):
     
   
 while True:
-    print("\n +==========================================+")
-    print(" |        Wellcome to Nero Bootloader         |")
-    print(" |       ~~~~    Develop by Lam   ~~~~        |")
-    print(" +==========================================+")
+    print("\n ╔════════════════════════════════════════╗")
+    print(" ║          BOOTLOADER MENU                 ║")
+    print(" ║         ~~~~   Developed by Lam  ~~~~    ║")
+    print(" ╚════════════════════════════════════════╝\n")
 
-  
-    
-    print("\n   Which BL command do you want to send ??\n")
-    print("   BL_GET_VER                            --> 1")
-    print("   BL_GET_HLP                            --> 2")
-    print("   BL_GET_CID                            --> 3")
-    print("   BL_GET_RDP_STATUS                     --> 4")
-    print("   BL_GO_TO_ADDR                         --> 5")
-    print("   BL_FLASH_ERASE                        --> 6")
-    print("   BL_MEM_WRITE                          --> 7")
-    print("   BL_EN_R_W_PROTECT                     --> 8")
-    print("   BL_MEM_READ                           --> 9")
-    print("   BL_READ_SECTOR_P_STATUS               --> 10")
-    print("   BL_OTP_READ                           --> 11")
-    print("   BL_DIS_R_W_PROTECT                    --> 12")
-    print("   BL_MY_NEW_COMMAND                     --> 13")
-    print("   MENU_EXIT                             --> 0")
+    print("   Which BL command do you want to send ??\n")
+    print(" ╔════════════════════════════════════════╗")
+    print(" ║ Command                              Code ║")
+    print(" ╠════════════════════════════════════════╣")
+    print(" ║ BL_GET_VER                           1    ║")
+    print(" ║ BL_GET_HLP                           2    ║")
+    print(" ║ BL_GET_CID                           3    ║")
+    print(" ║ BL_GET_RDP_STATUS                    4    ║")
+    print(" ║ BL_GO_TO_ADDR                        5    ║")
+    print(" ║ BL_FLASH_ERASE                       6    ║")
+    print(" ║ BL_MEM_WRITE                         7    ║")
+    print(" ║ BL_EN_R_W_PROTECT                    8    ║")
+    print(" ║ BL_MEM_READ                          9    ║")
+    print(" ║ BL_READ_SECTOR_P_STATUS              10   ║")
+    print(" ║ BL_OTP_READ                          11   ║")
+    print(" ║ BL_DIS_R_W_PROTECT                   12   ║")
+    print(" ║ BL_MY_NEW_COMMAND                    13   ║")
+    print(" ║ MENU_EXIT                            0    ║")
+    print(" ╚════════════════════════════════════════╝\n")
+
+
 
     #command_code = int(input("\n   Type the command code here :") )
 
