@@ -696,9 +696,9 @@ while True:
     print(" ╚══════════════════════════════════════════╝\n")
 
     print("   Which BL command do you want to send ??\n")
-    print(" ╔═══════════════════════════════════════════╗")
-    print(" ║ Command                            Code   ║")
-    print(" ╠═══════════════════════════════════════════╣")
+    print(" ╔═══════════════════════════════════════════╗   /\_/\  ")
+    print(" ║ Command                            Code   ║  ( o.o ) ")
+    print(" ╠═══════════════════════════════════════════╣   > ^ <  ")
     print(" ║ BL_GET_VER                           1    ║")
     print(" ║ BL_GET_HLP                           2    ║")
     print(" ║ BL_GET_CID                           3    ║")
