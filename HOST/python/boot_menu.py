@@ -689,15 +689,16 @@ if(ret < 0):
     
   
 while True:
-    print("\n ╔════════════════════════════════════════╗")
+    print("\n")
+    print(" ╔══════════════════════════════════════════╗")
     print(" ║          BOOTLOADER MENU                 ║")
     print(" ║         ~~~~   Developed by Lam  ~~~~    ║")
-    print(" ╚════════════════════════════════════════╝\n")
+    print(" ╚══════════════════════════════════════════╝\n")
 
     print("   Which BL command do you want to send ??\n")
-    print(" ╔════════════════════════════════════════╗")
-    print(" ║ Command                              Code ║")
-    print(" ╠════════════════════════════════════════╣")
+    print(" ╔═══════════════════════════════════════════╗")
+    print(" ║ Command                            Code   ║")
+    print(" ╠═══════════════════════════════════════════╣")
     print(" ║ BL_GET_VER                           1    ║")
     print(" ║ BL_GET_HLP                           2    ║")
     print(" ║ BL_GET_CID                           3    ║")
@@ -712,7 +713,7 @@ while True:
     print(" ║ BL_DIS_R_W_PROTECT                   12   ║")
     print(" ║ BL_MY_NEW_COMMAND                    13   ║")
     print(" ║ MENU_EXIT                            0    ║")
-    print(" ╚════════════════════════════════════════╝\n")
+    print(" ╚═══════════════════════════════════════════╝\n")
 
 
 
